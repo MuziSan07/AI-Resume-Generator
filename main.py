@@ -91,7 +91,7 @@ if not groq_api_key:
 try:
     llm = ChatGroq(
         temperature=0.7,
-        model_name="llama-3.3-70b-versatile",
+        model_name="qwen/qwen3.8-27b",
         groq_api_key=groq_api_key
     )
 except Exception as e:
